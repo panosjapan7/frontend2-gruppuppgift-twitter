@@ -23,8 +23,7 @@
             background: transparent;
             border: none;
             padding-top: 5px;
-            padding-bottom: 5px;
-                    
+            padding-bottom: 5px;           
         }
 
         ::placeholder{
@@ -110,7 +109,6 @@
 
         margin-left: 20px;
         margin-right: 15px;
-
     }
     
     /* Black FOLLOW button in the "Who to follow" Section */
@@ -165,10 +163,7 @@
     .tosCookies-elements:hover { 
         color: gray;
         cursor: pointer;
-        
-
         border-bottom: 1px solid gray;
-
     }
 
 /* End of TOS Cookies etc. */

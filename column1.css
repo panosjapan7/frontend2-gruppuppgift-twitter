@@ -58,10 +58,6 @@
         padding-top: 7px;
         padding-bottom: 7px;
 
-        /* text-align: center; */
-        /* padding-left: 25%;
-        padding-right: 25%; */
-        
         width: 11em;
         
         font-weight: bold;
@@ -70,7 +66,6 @@
         color: white;
         background-color: rgb(30, 156, 242);
         border: none;
-        
     }
 
     /* Tweet Button Mobile */
@@ -138,21 +133,15 @@
     }
 
     .containerMobileButton{
-        /* padding-left: 25%; */
         padding-right: 0px;
         padding-left: 21%;
-
-        /* justify-content: center; */
         align-items: center;  
-        /* display: flex;  */
         margin-left: 0px; 
         margin-right: 0px;
     }   
 
     .button-mobile{
         display: block;
-        
-        /* justify-content: center; */
         align-items: center;  
     }
 
@@ -160,10 +149,7 @@
         margin-top: 60px;
         padding-left: 21%;
         padding-right: 0px; 
-
-        /* justify-content: center; */
         align-items: center;  
-        /* display: flex;  */
     }
 
     .hassanPictureDiv{

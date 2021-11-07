@@ -79,12 +79,7 @@
         position: absolute;
         right: 20px;
     }
-    /* #message-status-box:focus {
-        outline: none;
-    } */
-    /* .message-status-icon {
-        margin-right: 10px;
-    } */
+
 /* End of WHAT'S HAPPENING? */
 
 /* TWEET Structure */
@@ -93,8 +88,6 @@
         flex-wrap: wrap;
         width: 100%;
         position: relative;
-        /* border-bottom: 1px solid #D3D3D3; */
-        /* overflow: hidden; */
 
         border-bottom: solid 1px rgb(236, 234, 234); 
         border-left: solid 1px rgb(236, 234, 234);
@@ -153,12 +146,10 @@
         .tweet-text {
             display: flex;
             padding-top: 15px;
-            
         }
             .tweet-header{
                 color: black;
                 font-weight: bold;
-
             }
 
             .tweet-details {
@@ -198,16 +189,13 @@
                 margin-bottom:4px;
                 margin-left:2px;
                 margin-right:10px;
-
                 color: rgb(57, 73, 87);
-                
             }
             .tweet-icon-value {
                 font-family: "Helvetica Neue";
                 font-weight:300;
                 font-size: 0.9em;
                 color: rgb(57, 73, 87);
-                
             }
         /* End of Tweet Icons */
         
