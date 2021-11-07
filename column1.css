@@ -1,0 +1,188 @@
+/* Frontend-2 - Gruppuppgift: Daigoro, Hanna, John, Jonatan, Karl, Panos, Yi */
+
+/* COLUMN 1 */
+
+.columnOne{
+    padding-left:0px; 
+    padding-right:0px; 
+    position: relative;
+}
+
+.sticky-top.container.left-menu{
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+}
+
+.icons-and-text-container{
+    margin-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+
+.row.align-items-start.left.menu {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.twitter-icon, .home-icon, .explore-icon, .notifications-icon, .messages-icon, .bookmarks-icon, .lists-icon, .profile-icon, .more-icon{
+    padding-left: 30%;
+    padding-right: 0px;
+}
+
+/* Notifications Bubble*/
+.notificationsBubble{
+    background-color: rgb(29, 155, 240) !important;
+    width: 40px;
+    
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 3px;
+}
+
+.searchIcon{
+    display: none;
+}
+
+/* Twitter Button */
+    .twitter-button{
+        padding-left: 30%;
+        padding-right: 0px;
+        margin-top: 30px;
+    }
+
+    .leftColumnTweetButton{
+        border-radius: 40px;
+                
+        padding-top: 7px;
+        padding-bottom: 7px;
+
+        /* text-align: center; */
+        /* padding-left: 25%;
+        padding-right: 25%; */
+        
+        width: 11em;
+        
+        font-weight: bold;
+        font-size: small;
+        
+        color: white;
+        background-color: rgb(30, 156, 242);
+        border: none;
+        
+    }
+
+    /* Tweet Button Mobile */
+    .button-mobile{
+        display: none;
+        border-radius: 50%;
+        width: 50px;        
+        height: 50px;
+        /* padding: 15px; */
+        
+        color: white;
+        background-color: #1DA1F2;
+        border: none;
+    }
+
+
+
+/* Hassan Div*/
+.hassan-div{
+    padding-left: 20%;
+    padding-right: 0px; 
+
+    margin-top: 190px;
+    /* margin-left: 20%; */
+}
+
+.hassanPictureDiv{
+    padding-left: 0px;
+    padding-right: 10px; 
+}
+
+.hassan-profile-picture{
+    padding-left: 0px;
+    border-radius: 50%;
+    width: 45px;
+}
+
+@media (max-width: 980px) {
+
+    .columnOne {
+        width: 20%;
+    }
+
+    .icons-and-text-container{
+        margin-bottom: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        
+    }
+
+    .home-text, .explore-text, .notifications-text, .messages-text, .bookmarks-text, .lists-text, .profile-text, .more-text{
+        display: none;
+    }
+
+    .exploreIcon{
+        display: none;
+    }
+
+    .searchIcon{
+        display: block;
+    }
+
+    .leftColumnTweetButton { 
+        display: none;
+    }
+
+    .containerMobileButton{
+        /* padding-left: 25%; */
+        padding-right: 0px;
+        padding-left: 21%;
+
+        /* justify-content: center; */
+        align-items: center;  
+        /* display: flex;  */
+        margin-left: 0px; 
+        margin-right: 0px;
+    }   
+
+    .button-mobile{
+        display: block;
+        
+        /* justify-content: center; */
+        align-items: center;  
+    }
+
+    .hassan-div{
+        margin-top: 60px;
+        padding-left: 21%;
+        padding-right: 0px; 
+
+        /* justify-content: center; */
+        align-items: center;  
+        /* display: flex;  */
+    }
+
+    .hassanPictureDiv{
+        padding-left: 0px;
+        padding-right: 0px; 
+    }
+
+    .hassan-profile-picture{
+        width: 50px;        
+        height: 50px;
+    }
+
+    .name-check-handle{
+        display: none;
+    }
+
+    .hassan-threedots {
+        display: none;
+    }
+}
+
+/* End of COLUMN 1*/
